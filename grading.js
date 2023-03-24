@@ -8,17 +8,18 @@ function calculateGrade(){
 
     let myerr = false;
 
-    if(sub1 > 100 || sub2 > 100 || sub3 > 100 || sub4 > 100 || sub5 > 100){
+    if(sub1 > 100 || sub2 > 100 || sub3 > 100 || sub4 > 100 || sub5 > 100 ){
         let err = document.getElementById('error');
-        err.innerHTML = 'Marks can not be greater than 100';
-        let myerr = true;
+        // err.innerHTML = 'Marks can not be greater than 100';
+        err.innerHTML = alert('Please Enter the Marks between the range 0 to 100');
+        myerr = true;
     }
-    else if(sub1 < 35 || sub2 < 35 || sub3 < 35 || sub4 < 100 || sub5 < 100){
+    else if(sub1 < 35 || sub2 < 35 || sub3 < 35 || sub4 < 35 || sub5 < 35){
         let err = document.getElementById('error');
         err.innerHTML = 'Can generate grades you got fail';
-        let myerr = true;
+        myerr = true;
     }
-
+    err = '';
     let totalMarks = sub1 + sub2 + sub3 + sub4 + sub5;
 
     let avgMarks = totalMarks/5;
@@ -43,9 +44,9 @@ function calculateGrade(){
     let avg = document.getElementById("myAvdMarks");
     let grades = document.getElementById("myGradeMarks");
 
-    if(myerr){
-        marks.innerHTML = "Total Marks " + totalMarks;
-        avg.innerHTML = "Your Average marks are " + avgMarks;
-        grades.innerHTML = "You Got " + grade + " grade";
+    if(!myerr){
+        marks.innerHTML = "Total Marks: " + totalMarks;
+        avg.innerHTML = "Your Average marks are: " + avgMarks;
+        grades.innerHTML = "You Got " + grade + " Grade";
     }
 }
