@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADING SYSTEM</title>
+    <link rel="stylesheet" type="text/css" href="grading.css">
+
+</head>
+<body>
+    <div class="System">
+        <div class="Inputs">
+            <h1>GRADING SYSTEM ASSIGNMENT</h1>
+
+            <div class="labelinputs">
+                <label for="sub1">English</label>
+            <input type="number" id="sub1" name="sub1">
+            <br/>
+            <br/>
+            <br/>
+            <label for="sub2">Maths</label>
+            <input type="number" id="sub2" name="sub2">
+            <br/>
+            <br/>
+            <br/>
+            <label for="sub3">Physics</label>
+            <input type="number" id="sub3" name="sub3">
+            <br/>
+            <br/>
+            <br/>
+            <label for="sub4">Chemistry</label>
+            <input type="number" id="sub4" name="sub4">
+            <br/>
+            <br/>
+            <br/>
+            <label for="sub5">Computer</label>
+            <input type="number" id="sub5" name="sub5">
+            <br/>
+            <br/>
+            <br/>
+            <input id="mycal" type="button" value="Calculate Grade" onclick="calculateGrade()">
+
+            <div id="error"></div>
+
+
+        </div>
+        <div class="Outputs">
+            <div class="totalcard">
+                <h1>TOTAL</h1>
+                <br/>
+                <p id="myTotalMarks"></p>
+            </div>
+            <div class="avgcard">
+                <h1>AVERAGE</h1>
+                <br/>
+                <p id="myAvdMarks"></p>
+            </div>
+            <div class="gradecard">
+                <h1>GRADE</h1>
+                <br/>
+                <p id="myGradeMarks"></p>
+            </div>
+
+        </div>
+    </div>
+    <script src="grading.js"></script>
+</body>
+</html>

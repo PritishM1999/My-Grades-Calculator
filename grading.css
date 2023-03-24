@@ -1,0 +1,101 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.System{
+    display: flex;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.Inputs{
+    width: 45%;
+    height: 600px;
+    background-color: rgb(164, 255, 249);
+    border-radius: 20px;
+    margin-left: 4%;
+}
+.labelinputs{
+    margin-left: 20%;
+}
+#mycal{
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+}
+.Inputs h1{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 8%;
+    padding-right: 5%;
+    margin-top: 30px;
+    color: lightcyan;
+    background-color: rgb(187, 24, 24);
+    font-weight: bold;
+}
+.Outputs{
+    width: 45%;
+    height: 600px;
+    background-color: rgb(142, 160, 214);
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 50%;
+    margin-top: -39%;
+}
+
+.totalcard{
+    height: 29%;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+.totalcard h1{
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-left: 30%;
+    padding-right: 10%;
+    margin-top: 30px;
+    color: lightcyan;
+    background-color: rgb(187, 24, 24);
+    font-size: x-large;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.avgcard{
+    height: 29%;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.avgcard h1{
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-left: 30%;
+    padding-right: 10%;
+    margin-top: 10px;
+    color: lightcyan;
+    background-color: rgb(187, 24, 24);
+    font-size: x-large;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.gradecard{
+    height: 27%;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+
+.gradecard h1{
+    margin-left: 14%;
+    margin-right: 14%;
+    padding-left: 30%;
+    padding-right: 10%;
+    margin-top: 30px;
+    color: lightcyan;
+    background-color: rgb(187, 24, 24);
+    font-size: x-large;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
